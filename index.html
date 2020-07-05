@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+<body>
+<!-- SVG -->
+    <svg style="display:none;">
+        <symbol id="mailbox" viewBox="0 0 128 128">
+            <g>
+                <path d="M0.5,18.5v91h127v-91H0.5z M105.1992188,28.5L63.9550781,56.956543L21.3642578,28.5H105.1992188z     M10.5,99.5V33.2675781l53.5449219,35.7763672L117.5,32.1621094V99.5H10.5z"/>
+            </g>
+        </symbol>
+        <symbol id="link" viewBox="0 0 80 80">
+            <g><path d="M29.298,63.471l-4.048,4.02c-3.509,3.478-9.216,3.481-12.723,0c-1.686-1.673-2.612-3.895-2.612-6.257   s0.927-4.585,2.611-6.258l14.9-14.783c3.088-3.062,8.897-7.571,13.131-3.372c1.943,1.93,5.081,1.917,7.01-0.025   c1.93-1.942,1.918-5.081-0.025-7.009c-7.197-7.142-17.834-5.822-27.098,3.37L5.543,47.941C1.968,51.49,0,56.21,0,61.234   s1.968,9.743,5.544,13.292C9.223,78.176,14.054,80,18.887,80c4.834,0,9.667-1.824,13.348-5.476l4.051-4.021   c1.942-1.928,1.953-5.066,0.023-7.009C34.382,61.553,31.241,61.542,29.298,63.471z M74.454,6.044   c-7.73-7.67-18.538-8.086-25.694-0.986l-5.046,5.009c-1.943,1.929-1.955,5.066-0.025,7.009c1.93,1.943,5.068,1.954,7.011,0.025   l5.044-5.006c3.707-3.681,8.561-2.155,11.727,0.986c1.688,1.673,2.615,3.896,2.615,6.258c0,2.363-0.928,4.586-2.613,6.259   l-15.897,15.77c-7.269,7.212-10.679,3.827-12.134,2.383c-1.943-1.929-5.08-1.917-7.01,0.025c-1.93,1.942-1.918,5.081,0.025,7.009   c3.337,3.312,7.146,4.954,11.139,4.954c4.889,0,10.053-2.462,14.963-7.337l15.897-15.77C78.03,29.083,80,24.362,80,19.338   C80,14.316,78.03,9.595,74.454,6.044z"/></g>
+        </symbol>
+    </svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    Logo
+                </div>
+                <nav class="nav">
+                    <a class="nav__link active" href="">Home</a>
+                    <a class="nav__link" href="">About</a>
+                    <a class="nav__link" href="">Team</a>
+                    <a class="nav__link" href="">Portfolio</a>
+                    <a class="nav__link" href="">Contacts</a>
+                </nav>
+            </div>  <!-- inner -->
+        </div> <!-- container -->
+    </header> <!-- header -->
+    <section class="home">
+        <div class="container">
+            <div class="home__inner">
+                <h1 class="home__title">We Build Awesome Wireframe</h1>
+                <h3 class="home__subtitle">A Template by Your Company</h3>
+                <img class="home__img" src="img/Macbook Pro.png" alt="" >
+            </div>
+        </div>
+    </section> <!-- home-->
+
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <h2 class="about__title">
+                    About Us
+                </h2>
+                <p class="about__text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                    natoque penatibus et magnis dis.
+                </p>
+                <img class="about__img" src="img/iPad Air.png" alt="" >
+                <p class="about__subtext">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis 
+                    parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+                </p>
+            </div> <!-- inner-->
+        </div> <!-- container-->
+    </section> <!-- about-->
+
+    <section class="team">
+        <div class="container">
+            <div class="team__inner">
+                <h2 class="team__title">
+                    Our Team
+                </h2>
+                <p class="team__text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                    natoque penatibus et magnis dis.
+                </p>
+                <div class="team__items">
+                    <div class="team__item">
+                        <img class="team__photo" src="img/team/user.png" alt="">
+                        <div class="team__name">Name</div>
+                        <div class="team__desc">Lorem ipsum dolor sit amet, 
+                            consectetuer adipiscing elit. Aenean commodo. </div>
+                        <button class="team__btn">
+                            <svg class="mail__icon">
+                                <use xlink:href="#mailbox"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="team__item">
+                        <img class="team__photo" src="img/team/woman.png" alt="">
+                        <div class="team__name">Name</div>
+                        <div class="team__desc">Lorem ipsum dolor sit amet, 
+                            consectetuer adipiscing elit. Aenean commodo. </div>
+                        <button class="team__btn">
+                            <svg class="mail__icon">
+                                <use xlink:href="#mailbox"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="team__item">
+                        <img class="team__photo" src="img/team/user.png" alt="">
+                        <div class="team__name">Name</div>
+                        <div class="team__desc">Lorem ipsum dolor sit amet, 
+                            consectetuer adipiscing elit. Aenean commodo. </div>
+                        <button class="team__btn">
+                            <svg class="mail__icon">
+                                <use xlink:href="#mailbox"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="team__item">
+                        <img class="team__photo" src="img/team/woman.png" alt="">
+                        <div class="team__name">Name</div>
+                        <div class="team__desc">Lorem ipsum dolor sit amet, 
+                            consectetuer adipiscing elit. Aenean commodo. </div>
+                        <button class="team__btn">
+                            <svg class="mail__icon">
+                                <use xlink:href="#mailbox"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                </div> <!-- /items-->
+            </div> <!-- /inner-->
+        </div> <!-- /container-->
+    </section> <!-- /team-->
+
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="portfolio__title">Portfolio</h2>
+            <p class="portfolio__text"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                natoque penatibus et magnis dis.</p>
+            <div class="portfolio__buttons">
+                <button class="portfolio__button active">All</button>
+                <button class="portfolio__button">Design</button>
+                <button class="portfolio__button">Identity</button>
+                <button class="portfolio__button">Photography</button>
+                <button class="portfolio__button">Ilustration</button>
+            </div>
+
+            <div class="portfolio__items">
+                <div class="portfolio__item">
+                    <div class="portfolio__sandwitch">                       
+                        <img class="portfolio__img" src="http://via.placeholder.com/355x237" />                        
+                        <div class="portfolio__desc">
+                            <div class="img__name">Title</div>
+                            <div class="img__desc">Lorem ipsum dolor sit amet, consec tetuer 
+                                adipiscing elit.</div>
+                        </div>    
+                    </div>                                            
+                        <div class="img__icon">
+                            <svg>
+                                <use xlink:href="#link"></use>
+                            </svg>
+                        </div>                                             
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__sandwitch">                       
+                        <img class="portfolio__img" src="http://via.placeholder.com/355x237" />                        
+                        <div class="portfolio__desc">
+                            <div class="img__name">Title</div>
+                            <div class="img__desc">Lorem ipsum dolor sit amet, consec tetuer 
+                                adipiscing elit.</div>
+                        </div>    
+                    </div>                                            
+                        <div class="img__icon">
+                            <svg>
+                                <use xlink:href="#link"></use>
+                            </svg>
+                        </div>                                             
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__sandwitch">                       
+                        <img class="portfolio__img" src="http://via.placeholder.com/355x237" />                        
+                        <div class="portfolio__desc">
+                            <div class="img__name">Title</div>
+                            <div class="img__desc">Lorem ipsum dolor sit amet, consec tetuer 
+                                adipiscing elit.</div>
+                        </div>    
+                    </div>                                            
+                        <div class="img__icon">
+                            <svg>
+                                <use xlink:href="#link"></use>
+                            </svg>
+                        </div>                                             
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__sandwitch">                       
+                        <img class="portfolio__img" src="http://via.placeholder.com/355x237" />                        
+                        <div class="portfolio__desc">
+                            <div class="img__name">Title</div>
+                            <div class="img__desc">Lorem ipsum dolor sit amet, consec tetuer 
+                                adipiscing elit.</div>
+                        </div>    
+                    </div>                                            
+                        <div class="img__icon">
+                            <svg>
+                                <use xlink:href="#link"></use>
+                            </svg>
+                        </div>                                             
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__sandwitch">                       
+                        <img class="portfolio__img" src="http://via.placeholder.com/355x237" />                        
+                        <div class="portfolio__desc">
+                            <div class="img__name">Title</div>
+                            <div class="img__desc">Lorem ipsum dolor sit amet, consec tetuer 
+                                adipiscing elit.</div>
+                        </div>    
+                    </div>                                            
+                        <div class="img__icon">
+                            <svg>
+                                <use xlink:href="#link"></use>
+                            </svg>
+                        </div>                                             
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__sandwitch">                       
+                        <img class="portfolio__img" src="http://via.placeholder.com/355x237" />                        
+                        <div class="portfolio__desc">
+                            <div class="img__name">Title</div>
+                            <div class="img__desc">Lorem ipsum dolor sit amet, consec tetuer 
+                                adipiscing elit.</div>
+                        </div>    
+                    </div>                                            
+                        <div class="img__icon">
+                            <svg>
+                                <use xlink:href="#link"></use>
+                            </svg>
+                        </div>                                             
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__sandwitch">                       
+                        <img class="portfolio__img" src="http://via.placeholder.com/355x237" />                        
+                        <div class="portfolio__desc">
+                            <div class="img__name">Title</div>
+                            <div class="img__desc">Lorem ipsum dolor sit amet, consec tetuer 
+                                adipiscing elit.</div>
+                        </div>    
+                    </div>                                            
+                        <div class="img__icon">
+                            <svg>
+                                <use xlink:href="#link"></use>
+                            </svg>
+                        </div>                                             
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__sandwitch">                       
+                        <img class="portfolio__img" src="http://via.placeholder.com/355x237" />                        
+                        <div class="portfolio__desc">
+                            <div class="img__name">Title</div>
+                            <div class="img__desc">Lorem ipsum dolor sit amet, consec tetuer 
+                                adipiscing elit.</div>
+                        </div>    
+                    </div>                                            
+                        <div class="img__icon">
+                            <svg>
+                                <use xlink:href="#link"></use>
+                            </svg>
+                        </div>                                             
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__sandwitch">                       
+                        <img class="portfolio__img" src="http://via.placeholder.com/355x237" />                        
+                        <div class="portfolio__desc">
+                            <div class="img__name">Title</div>
+                            <div class="img__desc">Lorem ipsum dolor sit amet, consec tetuer 
+                                adipiscing elit.</div>
+                        </div>    
+                    </div>                                            
+                        <div class="img__icon">
+                            <svg>
+                                <use xlink:href="#link"></use>
+                            </svg>
+                        </div>                                             
+                </div>
+            </div> <!-- /portfolio items-->
+        </div>  <!-- /container-->
+    </section> <!-- /portfolio-->
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <h2 class="contact__title">Contact</h2>
+                <p class="contact__text"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                    natoque penatibus et magnis dis.</p>
+                <div class="contact__inputs">
+                    <input class="contact__input" type="text" name="name"  placeholder="Enter your Name">
+                    <input class="contact__input" type="text" name="address"  placeholder="Enter your Adress">
+                    <input class="contact__input" type="text" name="city"  placeholder="Enter your City">
+                    <input class="contact__input" type="email" name="email"  placeholder="Enter your Email Adress">
+                    <textarea class="contact__input" placeholder="Enter your Email Message"></textarea>
+                </div>
+                <button class="contact__button" type="submit">Submit</button>
+            </div> <!-- /inner-->
+        </div>  <!-- /container-->
+    </section> <!-- /contact-->
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <nav class="footer__nav">
+                <a class="footer__link">Home</a>
+                <a class="footer__link">About</a>
+                <a class="footer__link">Team</a>
+                <a class="footer__link">Portfolio</a>
+                <a class="footer__link">Contact</a>
+            </nav>
+            <copyright class="footer__copyright">Copyright © Your Company 2014. All Rights Reserved</copyright>
+        </div> <!-- /inner-->
+    </div> <!-- /containerr-->
+</footer> <!-- /footer-->
+
+</body>
+</html>
