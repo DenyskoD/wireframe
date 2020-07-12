@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5,h6,p {
     width: 100%;
     max-width: 1169px;
     margin: 0 auto;
+    overflow: hidden;
 }
 /* header */
 .header {
@@ -410,15 +411,14 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .img__icon {
     display: block;
-    max-width: 100%;
+    max-width: 80px;
+    max-height: 80px;
     fill : #fff;
     position: absolute;
     z-index: 0;
-    bottom: 0;
-    left: 0;
-    top: 0;
-    right: 0;
-    transform: translate3d(37%, 34% , 0);
+    left: 39%;
+    top: 34%;
+    transform: translate3d(-1%, -8% , 0);
     transition: opacity 0.2s linear;
 }
 .img__icon svg {
