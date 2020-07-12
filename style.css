@@ -414,8 +414,17 @@ h1,h2,h3,h4,h5,h6,p {
     fill : #fff;
     position: absolute;
     z-index: 0;
-    transform: translate3d(0%, 50% , 0);
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    transform: translate3d(37%, 34% , 0);
     transition: opacity 0.2s linear;
+}
+.img__icon svg {
+    display : block;
+    max-width: 80px;
+    height: 80px;
 }
 .img__name {
     font-size: 25px;
@@ -806,9 +815,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 @media (max-width: 370px) {
     /* portfolio */
-    .img__icon {
+    /* .img__icon {
         transform: translate3d(0%, 15% , 0);
-    }
+    } */
     /* contact */
     .contact__inputs {
         max-width: 450px;  /* na 3 ne dilutsya */
