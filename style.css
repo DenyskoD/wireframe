@@ -814,10 +814,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 }
 @media (max-width: 370px) {
-    /* portfolio */
-    /* .img__icon {
-        transform: translate3d(0%, 15% , 0);
-    } */
+
     /* contact */
     .contact__inputs {
         max-width: 450px;  /* na 3 ne dilutsya */
